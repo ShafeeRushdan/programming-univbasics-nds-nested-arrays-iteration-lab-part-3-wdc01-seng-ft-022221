@@ -7,7 +7,7 @@ def join_nested_strings(mixed_data)
     
     element_index = 0 
      
-  while element_index < mixed_data.count do 
+  while element_index < mixed_data[row_index].count do 
     
    puts "bob" 
     
