@@ -9,7 +9,7 @@ def join_nested_strings(mixed_data)
      
   while element_index < mixed_data[row_index].count do 
     
-   puts "bob" 
+   #puts "bob" 
     
    if mixed_data[row_index][element_index].class == String.class 
    
