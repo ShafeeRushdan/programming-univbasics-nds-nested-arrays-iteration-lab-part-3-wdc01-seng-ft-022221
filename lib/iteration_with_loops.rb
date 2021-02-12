@@ -17,7 +17,7 @@ def join_nested_strings(mixed_data)
  #binding.pry
     
 end
-
+element_index += 1
 end 
 
   
