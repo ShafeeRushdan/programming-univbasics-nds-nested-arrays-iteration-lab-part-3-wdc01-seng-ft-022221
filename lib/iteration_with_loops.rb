@@ -14,7 +14,7 @@ def join_nested_strings(mixed_data)
    #puts "bob" 
     
    if mixed_data[row_index][element_index].class == String
-   puts "bob" 
+   #puts "bob" 
   message << mixed_data[row_index][element_index]
  #binding.pry
     
