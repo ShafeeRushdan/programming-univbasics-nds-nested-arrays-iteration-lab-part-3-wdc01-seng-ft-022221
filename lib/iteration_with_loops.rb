@@ -2,7 +2,7 @@
 
 def join_nested_strings(mixed_data)
   
-  message = ""
+  message = ","
   row_index = 0 
   
   while row_index < mixed_data.count do 
