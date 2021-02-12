@@ -2,7 +2,7 @@
 
 def join_nested_strings(mixed_data)
   
-  message = ","
+  message = ""
   row_index = 0 
   
   while row_index < mixed_data.count do 
@@ -15,7 +15,7 @@ def join_nested_strings(mixed_data)
     
    if mixed_data[row_index][element_index].class == String
    #puts "bob" 
-  message << mixed_data[row_index][element_index]
+  message << mixed_data[row_index][element_index] + " "
  #binding.pry
     
 end
